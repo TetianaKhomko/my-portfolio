@@ -1,0 +1,11 @@
+nav, mane {
+    display: block;
+}
+.pagewrap {
+    margin: 0 auto;
+}
+body {
+    margin-top: 60px;
+    position: relative;
+    background-color: yellow;
+}
