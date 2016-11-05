@@ -1,11 +1,59 @@
-nav, mane {
+nav, article, footer {
     display: block;
 }
-.pagewrap {
-    margin: 0 auto;
-}
 body {
-    margin-top: 60px;
-    position: relative;
+    font-family: "PT+Sans, sans serif";
+    font-size: 1.5em;
+    margin: 0 auto;
+    padding: 0 auto;
     background-color: lightyellow;
+    position: relative;
+}
+.container-header {
+    border: 1px solid silver;
+    display: block;
+    position: fixed;
+    z-index: 200;
+    background-color: lightblue;
+    width: 100%;
+    opacity: 0.8;
+}
+.my-name {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    
+}
+.nav-menu {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+.tetiana {
+   font-size: 1.1em;
+   font-weight: bold;
+}
+.my-email {
+    font-style: italic;
+    font-size: 0.9em;
+    color: blue;
+}
+.container-about {
+    position: relative;
+    width: 100%;
+}
+.title {
+    display: block;
+    position: absolute;
+    top: 107px;
+    left: 40%;
+    font-size: 1.3em;
+}
+.my-information {
+    position: absolute;
+    top: 150px;
+}
+img {
+    width: 100%;
 }
