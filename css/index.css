@@ -5,16 +5,15 @@ body {
     font-family: "PT+Sans, sans serif";
     font-size: 1.5em;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
     background-color: lightyellow;
-    position: relative;
+    max-width: 100%;
 }
-.container-header {
-    border: 1px solid silver;
+.navbar {
     display: block;
     position: fixed;
     z-index: 200;
-    background-color: lightblue;
+    background-color: #ecf0f1;
     width: 100%;
     opacity: 0.8;
 }
@@ -27,33 +26,104 @@ body {
 }
 .nav-menu {
     display: inline-block;
+    float: right;
     width: 50%;
     text-align: center;
 }
 .tetiana {
    font-size: 1.1em;
    font-weight: bold;
+   color: #16a085;
 }
 .my-email {
     font-style: italic;
-    font-size: 0.9em;
+    font-size: 0.8em;
     color: blue;
 }
-.container-about {
-    position: relative;
+.right-menu {
+  list-style: none;
+}
+.right-menu a {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: blue;
+}
+.right-menu a:hover {
+    color: darkcyan;
+    text-decoration: underline;
+}
+.about-me {            /*flex*/
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 170px 0 10px 0;
 }
 .title {
-    display: block;
-    position: absolute;
-    top: 107px;
-    left: 40%;
-    font-size: 1.3em;
+    font-size: 1.4em;
+    width: 250px;
+    margin: auto;
+    color: black;
+    text-align: center;
 }
-.my-information {
-    position: absolute;
-    top: 150px;
+.container-about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    width: 100%;
+    margin: 0;
+    padding-top: 20px;
+}
+.my-photo {
+    width: 100%;
+    margin: 0;
+    text-align: center;
 }
 img {
+    border-radius: 20%;
+    border-color: lightblue;
+    border-style: solid;
+}
+.my-text {
+    margin: 20px 0;
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+footer {
     width: 100%;
+}
+.paginator {
+    width: 230px;
+    margin: 30px auto;
+    padding: 10px;
+    white-space: nowrap;
+    background: #ecf0f1;
+}
+.paginator a {
+    display: inline-block;
+    min-width: 20px;
+    height: 40px;
+    padding: 0 10px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #95a5a6;
+    margin-right: 20px;
+}
+.paginator .one {
+    margin-left: 30px;
+    background-color: #16a085;
+}
+.paginator a:hover {
+    background-color: #2ecc71;
 }
