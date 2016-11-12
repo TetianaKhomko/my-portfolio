@@ -1,6 +1,59 @@
-footer {
+body {
+    font-family: "PT+Sans, sans serif";
+    font-size: 1.4em;
+    margin: 0 auto;
+    padding: 0;
+    background-color: lightyellow;
+    max-width: 100%;
+}
+.all-projects {
+    width: 100%;
     position: relative;
-    top: 100px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.title {
+    display: block;
+    text-align: center;
+    color: teal;
+    text-shadow: 2px 1px 1px lightgreen;
+    margin-top: 30px;
+}
+.projects {
+    display: block;
+    width: 100%;
+}
+.project-one {
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+    text-align: center;
+}
+.project-two {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+    text-align: center;
+}
+p {
+    display: block;
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: center;
+}
+.contacts-links a {
+    display: block;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+a {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
     width: 100%;
 }
 .paginator {

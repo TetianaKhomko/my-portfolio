@@ -66,7 +66,7 @@ body {
 .title {
     font-size: 1.4em;
     width: 250px;
-    margin: auto;
+    margin: 0 auto;
     color: black;
     text-align: center;
 }
@@ -96,6 +96,7 @@ img {
     text-align: center;
     font-weight: bold;
 }
+
 footer {
     width: 100%;
 }
