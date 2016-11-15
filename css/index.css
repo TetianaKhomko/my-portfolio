@@ -19,13 +19,13 @@ body {
 }
 .my-name {
     float: left;
-    display: inline-block;
+    display: block;
     width: 50%;
     text-align: center;
     
 }
 .nav-menu {
-    display: inline-block;
+    display: block;
     float: right;
     width: 50%;
     text-align: center;
@@ -54,7 +54,8 @@ body {
     color: darkcyan;
     text-decoration: underline;
 }
-.about-me {            /*flex*/
+
+.about-me {      /*flex*/
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -96,7 +97,39 @@ img {
     text-align: center;
     font-weight: bold;
 }
-
+footer {
+    width: 100%;
+    clear: both;
+    margin-top: 10%;
+}
+.paginator {
+    width: 100%;
+    padding: 0.4em;
+    white-space: nowrap;
+    background: #ecf0f1;
+    text-align: center;
+    margin-bottom:5%;
+}
+.paginator a {
+    display: inline-block;
+    min-width: 4%;
+    height: 4%;
+    padding: 0.4em;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #95a5a6;
+}
+.paginator .one {
+    background-color: #16a085;
+}
+.paginator a:hover {
+    background-color: #2ecc71;
+}
+/*
 footer {
     width: 100%;
 }
@@ -127,4 +160,4 @@ footer {
 }
 .paginator a:hover {
     background-color: #2ecc71;
-}
+}*/

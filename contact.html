@@ -2,52 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>My portfolio</title>
     <link href="css/contact.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.png" type="image/png">
 </head>
 <body>
  <header>
-     <div class="all-projects">
-     <h2 class="title">MY PROJECTS</h2>
-     <div class="projects project-one">
-         <a href="" target="_blank" class="project">
-             <img src="" alt="logo of shop"></a>
-         </div><!--project-one-->
-         <div class="projects project-two">
-         <a href="" target="_blank" class="project">
-             <img src="" alt="site`s forms"></a>
-     </div><!--projects-two-->
- </div> <!--all projects-->
+     <div><h2 class="title">CONTACTS</h2></div>
+     <div><p>You can always contact me with these links:</p></div>
  </header>
- <!--Contact me-->
- <main>
- <div class="all contacts">
-     <h2 class="title">CONTACTS</h2>
-     <p>You can always contact me with these links:</p>
+     <main>
+     <div class="all contacts">
      <div class="contacts-links">
-         <a href="https://www.facebook.com/profile.php?id=100009174022367" target="_blank">
-         <button class="btn btn-block"><i class="ic facebook"></i>Facebook</button>
-         </a><!--Facebook link-->
-         <a href="https://vk.com/id254976899" target="_blank">
-             <button class="btn btn-block"><i class="ic vk"></i>VK</button>
-         </a><!--VK link-->
-         <a href="https://twitter.com/KhomkoTatiana" target="_blank">
-             <button class="btn btn-block"><i class="ic twitter"></i>Twitter</button>
-         </a><!--Twitter link-->
-         <a href="https://www.freecodecamp.com/tetianakhomko" target="_blank">
-             <button class="btn btn-block"><i class="ic freecodecamp"></i>FreeCodeCamp</button>
-         </a><!--FreeCodeCamp link-->
+         <div><a href="https://www.facebook.com/profile.php?id=100009174022367" target="_blank" class="btn btn-block">
+          <i class="ic facebook"><img src="img/Facebook_favicon.png" alt="facebook" width="20px"></i>  Facebook</a></div><!--Facebook link-->
+         <div><a href="https://vk.com/id254976899" target="_blank" class="btn btn-block">
+          <i class="ic vk"><img src="img/vk2.png" width="20px" alt="vkontakte"></i>VK</a></div><!--VK link-->
+         <div><a href="https://twitter.com/KhomkoTatiana" target="_blank" class="btn btn-block">
+          <i class="ic twitter"><img src="img/Twitter-favicon.png" width="20px" alt="twitter"></i>Twitter</a></div><!--Twitter link-->
+         <div><a href="https://www.freecodecamp.com/tetianakhomko" target="_blank" class="btn btn-block">
+          <i class="ic freecodecamp"></i>FreeCodeCamp</a></div><!--FreeCodeCamp link-->
      </div><!--contacts-links-->
      </div><!--all contacts-->
      </main>
-     <footer>
+     <!--<h4>Client Data</h4>
+    
+    <p>Name:<span id="clientName"></span></p>
+    <p>Address:<span id="clientAddress"></span></p>
+    
+    <button id="btn">Get Client Data</button>
+    
+    <div id="pageLoaded"></div>-->
+    
+    <p>To order a site.</p>
+     <form>
+        <label for="userName">Your name:</label>
+        <input name="userName" id="userName" placeholder="Maryna"><br>
+        <label for="age">Your age:</label>
+        <input name="age" type="number" id="age" min="1" max="75" placeholder="25"><br>
+        <label for="comment">Your message:</label>
+     <textarea name="comment" type="text" id="comment" cols="18" rows="7" maxlength="100" placeholder="Write here"></textarea><br>
+        <input type="submit" name="Send" id="send" value="Send">
+    </form>
+    
+    <footer>
          <div class="paginator">
              <a class="one" href="index.html">1</a>
              <a href="skill.html">2</a>
-             <a href="contact.html">3</a>
+             <a href="my-projects.html">3</a>
+             <a href="contact.html">4</a>
          </div>
      </footer>
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/form.js"></script>
 </body>
 </html>

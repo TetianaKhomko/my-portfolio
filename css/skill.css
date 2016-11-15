@@ -56,6 +56,39 @@ li:hover {
     font-weight: bold;
 }
 footer {
+    width: 100%;
+    clear: both;
+    margin-top: 15%;
+}
+.paginator {
+    width: 100%;
+    padding: 0.4em;
+    white-space: nowrap;
+    background: #ecf0f1;
+    text-align: center;
+    margin-bottom:5%;
+}
+.paginator a {
+    display: inline-block;
+    min-width: 4%;
+    height: 4%;
+    padding: 0.4em;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #95a5a6;
+}
+.paginator .one {
+    background-color: #16a085;
+}
+.paginator a:hover {
+    background-color: #2ecc71;
+}
+/*
+footer {
     position: relative;
     top: 100px;
     width: 100%;
@@ -87,4 +120,4 @@ footer {
 }
 .paginator a:hover {
     background-color: #2ecc71;
-}
+}/*
