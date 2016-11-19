@@ -42,7 +42,7 @@ li {
     margin-left: 10%;
     background-color: lightgrey;
     text-align: center;
-    border-radius: 20%;
+    border-radius: 20px;
     box-shadow: 7px 5px teal;
     font-weight: bold;
 }
@@ -51,8 +51,8 @@ p {
     margin-bottom: 30px;
 }
 li:hover {
-    background-color: lightpink;
-    border-radius: 20%;
+    background-color: lightgreen;
+    border-radius: 20px;
     font-weight: bold;
 }
 footer {
@@ -80,6 +80,10 @@ footer {
     text-decoration: none;
     color: white;
     background-color: #95a5a6;
+    box-shadow: 
+    inset rgba(0,0,0,.6) 0 -3px 8px,
+    inset rgba(252,255,255,.7) 0 3px 8px,
+    inset rgba(0,0,0,.8) 0 3px 8px -3px;
 }
 .paginator .one {
     background-color: #16a085;
@@ -87,37 +91,3 @@ footer {
 .paginator a:hover {
     background-color: #2ecc71;
 }
-/*
-footer {
-    position: relative;
-    top: 100px;
-    width: 100%;
-}
-.paginator {
-    width: 230px;
-    margin: 30px auto;
-    padding: 10px;
-    white-space: nowrap;
-    background: #ecf0f1;
-}
-.paginator a {
-    display: inline-block;
-    min-width: 20px;
-    height: 40px;
-    padding: 0 10px;
-    line-height: 40px;
-    text-align: center;
-    vertical-align: middle;
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-    background-color: #95a5a6;
-    margin-right: 20px;
-}
-.paginator .one {
-    margin-left: 30px;
-    background-color: #16a085;
-}
-.paginator a:hover {
-    background-color: #2ecc71;
-}/*

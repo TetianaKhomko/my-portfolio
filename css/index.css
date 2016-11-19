@@ -78,15 +78,15 @@ body {
     justify-content: center;
     align-content: space-around;
     width: 100%;
-    margin: 0;
+    margin: 0 auto;
     padding-top: 20px;
 }
 .my-photo {
-    width: 100%;
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
 }
 img {
+    max-width: 60%;
     border-radius: 20%;
     border-color: lightblue;
     border-style: solid;
@@ -122,6 +122,10 @@ footer {
     text-decoration: none;
     color: white;
     background-color: #95a5a6;
+    box-shadow: 
+    inset rgba(0,0,0,.6) 0 -3px 8px,
+    inset rgba(252,255,255,.7) 0 3px 8px,
+    inset rgba(0,0,0,.8) 0 3px 8px -3px;
 }
 .paginator .one {
     background-color: #16a085;
@@ -129,35 +133,3 @@ footer {
 .paginator a:hover {
     background-color: #2ecc71;
 }
-/*
-footer {
-    width: 100%;
-}
-.paginator {
-    width: 230px;
-    margin: 30px auto;
-    padding: 10px;
-    white-space: nowrap;
-    background: #ecf0f1;
-}
-.paginator a {
-    display: inline-block;
-    min-width: 20px;
-    height: 40px;
-    padding: 0 10px;
-    line-height: 40px;
-    text-align: center;
-    vertical-align: middle;
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-    background-color: #95a5a6;
-    margin-right: 20px;
-}
-.paginator .one {
-    margin-left: 30px;
-    background-color: #16a085;
-}
-.paginator a:hover {
-    background-color: #2ecc71;
-}*/

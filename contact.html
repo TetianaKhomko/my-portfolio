@@ -6,6 +6,7 @@
     <link href="css/contact.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
  <header>
@@ -13,39 +14,29 @@
      <div><p>You can always contact me with these links:</p></div>
  </header>
      <main>
-     <div class="all contacts">
+     <div class="all-contacts">
      <div class="contacts-links">
-         <div><a href="https://www.facebook.com/profile.php?id=100009174022367" target="_blank" class="btn btn-block">
+         <div class="network"><a href="https://www.facebook.com/profile.php?id=100009174022367" target="_blank" class="btn btn-block">
           <i class="ic facebook"><img src="img/Facebook_favicon.png" alt="facebook" width="20px"></i>  Facebook</a></div><!--Facebook link-->
-         <div><a href="https://vk.com/id254976899" target="_blank" class="btn btn-block">
-          <i class="ic vk"><img src="img/vk2.png" width="20px" alt="vkontakte"></i>VK</a></div><!--VK link-->
-         <div><a href="https://twitter.com/KhomkoTatiana" target="_blank" class="btn btn-block">
-          <i class="ic twitter"><img src="img/Twitter-favicon.png" width="20px" alt="twitter"></i>Twitter</a></div><!--Twitter link-->
-         <div><a href="https://www.freecodecamp.com/tetianakhomko" target="_blank" class="btn btn-block">
-          <i class="ic freecodecamp"></i>FreeCodeCamp</a></div><!--FreeCodeCamp link-->
+         <div class="network"><a href="https://vk.com/id254976899" target="_blank" class="btn btn-block">
+          <i class="ic vk"><img src="img/vk2.png" width="20px" alt="vkontakte"></i>  VK</a></div><!--VK link-->
+         <div class="network"><a href="https://twitter.com/KhomkoTatiana" target="_blank" class="btn btn-block">
+          <i class="ic twitter"><img src="img/Twitter-favicon.png" width="20px" alt="twitter"></i>  Twitter</a></div><!--Twitter link-->
+         <div class="network"><a href="https://www.freecodecamp.com/tetianakhomko" target="_blank" class="btn btn-block">
+          <i class="ic freecodecamp"><img src="img/favicon-freecodecamp.png" width="20px" alt="freecodecamp"></i>  FreeCodeCamp</a></div><!--FreeCodeCamp link-->
      </div><!--contacts-links-->
      </div><!--all contacts-->
-     </main>
-     <!--<h4>Client Data</h4>
-    
-    <p>Name:<span id="clientName"></span></p>
-    <p>Address:<span id="clientAddress"></span></p>
-    
-    <button id="btn">Get Client Data</button>
-    
-    <div id="pageLoaded"></div>-->
-    
-    <p>To order a site.</p>
+     <div class="form">
+    <span>Send me a message.</span><br><br>
      <form>
         <label for="userName">Your name:</label>
-        <input name="userName" id="userName" placeholder="Maryna"><br>
-        <label for="age">Your age:</label>
-        <input name="age" type="number" id="age" min="1" max="75" placeholder="25"><br>
+        <input name="userName" id="userName" class="form-section" placeholder="Maryna"><br><br>
         <label for="comment">Your message:</label>
-     <textarea name="comment" type="text" id="comment" cols="18" rows="7" maxlength="100" placeholder="Write here"></textarea><br>
-        <input type="submit" name="Send" id="send" value="Send">
+     <textarea name="comment" type="text" id="comment" class="form-section" cols="18" rows="7" maxlength="100" placeholder="Hello"></textarea><br><br>
+        <input type="submit" name="Send" id="send" class="button" value="Send">
     </form>
-    
+    </div>
+    </main>
     <footer>
          <div class="paginator">
              <a class="one" href="index.html">1</a>

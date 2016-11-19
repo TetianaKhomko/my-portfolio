@@ -7,7 +7,6 @@ $(function() {
                 method: "POST",
                 data: {
                     userName: $('#userName').val(),
-                    age: $('#age').val(),
                     comment: $('#comment').val()
                 },
                 dataType: "json"
