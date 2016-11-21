@@ -6,16 +6,16 @@ body {
     font-size: 1.5em;
     margin: 0 auto;
     padding: 0;
-    background-color: lightyellow;
+    background-image: url("../img/pink-star-background.jpeg");
     max-width: 100%;
 }
 .navbar {
     display: block;
     position: fixed;
     z-index: 200;
-    background-color: #ecf0f1;
+    background-image: url("../img/lines-background.jpeg");
     width: 100%;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 .my-name {
     float: left;
@@ -33,12 +33,12 @@ body {
 .tetiana {
    font-size: 1.1em;
    font-weight: bold;
-   color: #16a085;
+   color: #000000;
 }
 .my-email {
     font-style: italic;
     font-size: 0.8em;
-    color: blue;
+    color: #000000;
 }
 .right-menu {
   list-style: none;
@@ -48,10 +48,10 @@ body {
     font-weight: bold;
     font-size: 1.1em;
     text-decoration: none;
-    color: blue;
+    color: #000000;
 }
 .right-menu a:hover {
-    color: darkcyan;
+    color: #0000cd;
     text-decoration: underline;
 }
 
@@ -106,7 +106,7 @@ footer {
     width: 100%;
     padding: 0.4em;
     white-space: nowrap;
-    background: #ecf0f1;
+    background-image: url("../img/lines-background.jpeg");
     text-align: center;
     margin-bottom:5%;
 }
